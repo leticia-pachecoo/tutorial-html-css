@@ -5,15 +5,62 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>IFFinance</title>
     <link rel="stylesheet" href="./css/styleif.css">
+    <script>
+        var nome= "leticia";//pode redeclarar 
+        let idade= "18" // não pode (pode mudar o valor)
+        const profissao = "aluna"// a melhor jóia
+
+    function nomecompleto(nome, sobrenome) {
+        return `${nome} ${sobrenome}`
+     }
+     
+        const user = {  //objeto
+            id: 10,
+            nome: "paulo",
+            sobrenome: "silva",
+            email: "paulo@gmail.com",
+            altura: 1.75,
+
+            idAdmins: [4, 20, 30, 33],
+            endereço: {
+                rua: "rua dos bobs",
+                numero: 0
+            }
+
+        }
+        //const idAdmins - [1, 5, 10, 80, {rua:"dos bobs", numero: 0}] 
+        console.log( `ola ${nomecompleto(user.nome, user.sobrenome)}, seja bem vindo`)
+    </script>
     </head>
     <body>
         <header>
             <div class="wrapper">
                 <div id="logo">
-                    <h1>IFFinance</h1>
+                    <a href="./index.html">
+                         <img src="./img/savings_40dp_BB271A_FILL0_wght400_GRAD0_opsz40.svg.svg" alt="logo IF finance">
+                         <h1><span>IF</span>Finance</h1>
+                    </a>
                 </div>
-                <nav> </nav>
+                <nav>
+                    <ul>
+                        <li> <a class="active" href="./index.html">Home</a></li>
+                        <li> <a href="./quem-somos.html">Quem somos</a></li>
+                        <li> <a href="./bolsas.html"> Bolsas</a></li>
+                        <li> <a href="./destaques.html"> Destaques</a></li>
+                        <li> <a href="./contatos.html">Contatos</a></li>
+                    </ul>    
+                </nav>
             </div>
         </header>
+        <main>
+            <div class="wrapper">
+            <h1> Home</h1>
+            </div>
+        </main>
     </body>
+    <script>
+        const logo = document.getElementById('logo')
+        console.log("elemento logo:")
+        console.log(logo)
+    </script>
 </html>
