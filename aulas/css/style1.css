@@ -1,0 +1,40 @@
+#page {
+    width: 900px;
+    height: 1000px;
+    background-color: aquamarine;
+    margin: 0 auto;
+}
+
+#header{
+ width: 100%;
+ height: 100px;
+ background-color: blueviolet;
+}
+
+#main{
+    display: flex; 
+}
+
+#sidebar1{
+ width: 200px;
+ height: 900px;
+ background-color: rgb(255, 145, 145);
+}
+
+#content{
+    width: 500px;
+    height: 900px;
+    background-color: rgb(0, 238, 255);
+   }
+
+#sidebar2{
+    width: 200px;
+    height: 900px;
+    background-color: rgb(238, 198, 18);
+   }
+
+   #footer{
+    width:100%; 
+    height: 100px;
+    background-color: rgb(50, 218, 209);
+}

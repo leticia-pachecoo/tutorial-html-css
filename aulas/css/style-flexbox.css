@@ -1,0 +1,19 @@
+#container1{
+    background-color: rgb(172, 13, 150);
+    width: 80%;
+    height: 300px;
+    display: flex;
+      flex-direction: row;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+}
+.box {
+    background-color: rgb(255, 240, 34);
+    width: 100px;
+    height: 100px;
+}
+.ml-auto{
+    margin: 0 0 0 auto;
+}
