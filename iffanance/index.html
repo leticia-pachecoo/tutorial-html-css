@@ -67,8 +67,19 @@
                     <h1> Adicionar Ação</h1>
                     <button onclick="closeModal()">X</button>
                 </header>
-                <form>
-                    
+                <form onsubmit="AddTicker(event)">
+                    <label for="urlLogo">URL Logo:</label>
+                    <input type="text" id="urlLogo" name="urlLogo">
+                    <label for="nameCompany">Nome da Empresa:</label>
+                    <input type="text" id="nameCompany" name="nameCompany">
+                    <label for="ticker">Símbolo:</label>
+                    <input type="text" id="ticker" name="ticker">
+                    <label for="quantity">Quantidade:</label>
+                    <input type="text" id="quantity" name="quantity">
+                    <label for="closedValue">Valor da Ação:</label>
+                    <input type="text" id="closedValue" name="closedValue">
+
+                    <input type="submit" value="Adicionar" style="width: 50%;">
                 </form>
             </main>
         </div>
